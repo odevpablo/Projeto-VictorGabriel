@@ -1,4 +1,4 @@
-# Vite React Shadcn Landing Page
+# Victor Gabriel Landing Page
 
 Landing page moderna construída com [Vite](https://vitejs.dev/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/) e componentes do [shadcn/ui](https://ui.shadcn.com/).
 
