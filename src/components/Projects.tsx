@@ -6,8 +6,10 @@ import { Badge } from "@/components/ui/badge";
 import feedbackJoLima from "../assets/feedbackjolima.jpg";
 import feedbakJoLima2 from "../assets/feedbackjolima2.jpg";
 import ResultadosJoLima from "../assets/resultadosjolima.jpg";
-import ResultadosFabyModas1 from "../assets/feedbackfabymodas.jpg";
+import ResultadosFabyModas1 from "../assets/FabymodasResultados.jpg";
 import ResultadosFabyModas2 from "../assets/IMG-20250615-WA0032.jpg";
+import VideoFabyModas from "../assets/FABI MODA VESTUÁRIO .mov";
+import TrabalhoFabyModas from "../assets/MetodologiasFabymodas.jpg"; 
 import InstagramIcon from "../assets/instagram.png"; 
 import { useState } from "react";
 
@@ -32,9 +34,12 @@ function FabyModasModal({ open, onClose, project }) {
         <img src={project.image} alt={project.title} className="mb-4 rounded w-full" />
         <p className="mb-4">{project.description}</p>
         <div>
+          <p className="font-bold mb-2 mt-6">Meu trabalho</p>
+          <video src={VideoFabyModas}  className="w-full h-auto object-cover rounded mb-4" controls/>
+          <img src={TrabalhoFabyModas}/>
           <p className="font-bold mb-2 mt-6">Resultados alcançados</p>
           <img src={ResultadosFabyModas2} className="w-full h-auto object-cover rounded mb-4" />
-          <img src={ResultadosFabyModas1} className="w-full h-auto object-cover rounded mb-4" />
+          <img src={ResultadosFabyModas1}/>
         </div>
       </div>
     </div>
