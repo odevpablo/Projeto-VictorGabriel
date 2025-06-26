@@ -71,7 +71,6 @@ function JoLimaModal({ open, onClose, project }) {
         <div>
           <p className="font-bold mb-2">Opiniões dos clientes</p>
           <img src={feedbackJoLima} className="w-full h-auto object-cover rounded mb-4" />
-          
           <p className="font-bold mb-2">Trabalho com metodologias escaláveis</p>
           <img src={feedbakJoLima2} className="w-full h-auto object-cover rounded mb-4" />
           
