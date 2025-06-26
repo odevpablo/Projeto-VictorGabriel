@@ -6,6 +6,10 @@ import { Badge } from "@/components/ui/badge";
 import feedbackJoLima from "../assets/feedbackjolima.jpg";
 import feedbakJoLima2 from "../assets/feedbackjolima2.jpg";
 import ResultadosJoLima from "../assets/resultadosjolima.jpg";
+import ResultadosJoLima2 from "../assets/ResultadorJoLima2.jpg";
+import VideosJoLima from "../assets/VideoJoLima.mp4";
+import TrabalhoJoLima from "../assets/TrabalhoJoLima2.jpg";
+import TrabalhoJoLima2 from "../assets/TrabalhoJoLima.jpg"
 import ResultadosFabyModas1 from "../assets/FabymodasResultados.jpg";
 import ResultadosFabyModas2 from "../assets/IMG-20250615-WA0032.jpg";
 import VideoFabyModas from "../assets/FABI MODA VESTUÁRIO .mov";
@@ -73,9 +77,13 @@ function JoLimaModal({ open, onClose, project }) {
           <img src={feedbackJoLima} className="w-full h-auto object-cover rounded mb-4" />
           <p className="font-bold mb-2">Trabalho com metodologias escaláveis</p>
           <img src={feedbakJoLima2} className="w-full h-auto object-cover rounded mb-4" />
-          
+          <img src={TrabalhoJoLima} className="w-full h-auto object-cover rounded mb-4" />
+          <img src={TrabalhoJoLima2} className="w-full h-auto object-cover rounded mb-4" />
+          <video src={VideosJoLima} className="w-full h-auto object-cover rounded mb-4" controls/>
           <p className="font-bold mb-2 mt-6">Impactos reais</p>
           <img src={ResultadosJoLima} className="w-full h-auto object-cover rounded mb-4" />
+          <img src={ResultadosJoLima2} className="w-full h-auto object-cover rounded mb-4" />
+
         </div>
       </div>
     </div>
