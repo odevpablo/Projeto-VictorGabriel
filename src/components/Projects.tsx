@@ -8,6 +8,7 @@ import feedbackJoLima from "../assets/feedbackjolima.jpg";
 import feedbakJoLima2 from "../assets/feedbackjolima2.jpg";
 import ResultadosJoLima from "../assets/resultadosjolima.jpg";
 import ResultadosJoLima2 from "../assets/ResultadorJoLima2.jpg";
+import ResultadoFabiModas1 from "../assets/AlcanceFabyModas.jpg"
 import VideosJoLima from "../assets/VideoJoLima.mp4";
 import TrabalhoJoLima from "../assets/TrabalhoJoLima2.jpg";
 import TrabalhoJoLima2 from "../assets/TrabalhoJoLima.jpg"
@@ -18,6 +19,8 @@ import VideoFabyModas2 from "../assets/FABI MODA VESTUÁRIO .mov";
 import TrabalhoFabyModas from "../assets/MetodologiasFabymodas.jpg"; 
 import VideoVdHair from "../assets/VideoVDHair.mp4"
 import VdHair from "../assets/VdHair2.jpg";
+import TemplateVdHair3 from "../assets/BannerVDHair.png"
+import TemplateVdHair2 from "../assets/Afinal de comtas - 5.png"
 import TemplateVdHair from "../assets/ImagemVDHair.jpg"
 import InstagramIcon from "../assets/instagram.png"; 
 import { useState } from "react";
@@ -46,6 +49,7 @@ function FabyModasModal({ open, onClose, project }) {
           <p className="font-bold mb-2 mt-6">Meu trabalho</p>
           <video src={VideoFabyModas}  className="w-full h-auto object-cover rounded mb-4" controls/>
           <video src={VideoFabyModas2}  className="w-full h-auto object-cover rounded mb-4" controls/>
+          <img src={ResultadoFabiModas1} className="w-full h-auto object-cover rounded mb-4" />
           <img src={TrabalhoFabyModas}/>
           <p className="font-bold mb-2 mt-6">Antes</p>
           <img src={AntesFaby}/>
@@ -121,6 +125,9 @@ function VdHairModal({ open, onClose, project }) {
           <video src={VideoVdHair} className="w-full h-auto object-cover rounded mb-4" controls/>
           <p className="font-bold mb-2 mt-6">Construímos sua imagem digital com estratégia e autenticidade.</p>
           <img src={TemplateVdHair}/>
+          <img src={VdHair}/>
+          <img src={TemplateVdHair2}/>
+          <img src={TemplateVdHair3}/>
 
         </div>
       </div>
@@ -152,7 +159,7 @@ export const Projects = () => {
       description: "VD Hair é um salão de beleza especializado em terapias capilares integrativas.",
       image: VDhair,
       tags: ["Bem Estar", "Terapia", "Atendimento"],
-      link: "https://www.instagram.com/jolima_hairteraphy?utm_source=ig_web_button_share_sheet&igsh=MW1tcnlqdmQwa2I5YQ=="
+      link: "https://www.instagram.com/vdhair_ofc?utm_source=ig_web_button_share_sheet&igsh=cjQwZm11MmtyMmNx"
     }
     
   ];
